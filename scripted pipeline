@@ -1,0 +1,14 @@
+node {  
+    stage('Build') { 
+        //
+        echo "bulid compled "
+    }
+    stage('Test') { 
+        // 
+        echo "test compled "
+    }
+    stage('Deploy') { 
+        // 
+        echo "deploy compled "
+    }
+}
