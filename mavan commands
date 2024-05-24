@@ -1,0 +1,5 @@
+clean
+clean test
+clean package
+clean package install
+-Dmaven.test.skip=TRUE install
